@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="empModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="empModelStoreContainer">
+    <EntitySet Name="tbldepartment" EntityType="empModel.Store.tbldepartment" store:Type="Tables" Schema="emp" />
+    <EntitySet Name="tblemployee" EntityType="empModel.Store.tblemployee" store:Type="Tables" Schema="emp" />
+  </EntityContainer>
+  <EntityType Name="tbldepartment">
+    <Key>
+      <PropertyRef Name="DepartmentId" />
+    </Key>
+    <Property Name="DepartmentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Location" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblemployee">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="Salary" Type="int" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,5 @@
+F:\EMP\EMPApi\EMPDB\bin\Debug\EMPDB.dll
+F:\EMP\EMPApi\EMPDB\bin\Debug\EMPDB.pdb
+F:\EMP\EMPApi\EMPDB\obj\Debug\EMPDB.csprojResolveAssemblyReference.cache
+F:\EMP\EMPApi\EMPDB\obj\Debug\EMPDB.dll
+F:\EMP\EMPApi\EMPDB\obj\Debug\EMPDB.pdb
