@@ -26,14 +26,6 @@ namespace EMPApi.Controllers
         // POST api/Employee
         public string InsertEmployee(string FirstName, string LastName, string Gender, int Salary)
         {
-            /*Employee employee = new Employee
-            {
-                FirstName=emp.FirstName,
-                LastName=emp.LastName,
-                Gender = emp.Gender,
-                Salary=emp.Salary,
-                DepartmentId=emp.DepartmentId
-            };*/
             string strResult = "";
             try
             {
